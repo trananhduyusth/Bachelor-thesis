@@ -1,0 +1,6 @@
+ArduPilot base (upstream master): 9f648ccabcf25a421192dc5b57491ce981506872
+ArduPilot branch indi head:      869b037b297a12b0ebb80490116a7d8a0dddfd28
+ardupilot_gazebo base:           082a0fe231f6e63bc8d1598f1cba461d9e2ea7f5 (https://github.com/ArduPilot/ardupilot_gazebo)
+
+Rebuild: clone ArduPilot at the base commit, git am patches/ardupilot/*.patch;
+clone ardupilot_gazebo at its base commit, git apply patches/ardupilot_gazebo/*.patch.

@@ -1,0 +1,114 @@
+{
+ "case": "pid_w9_s2",
+ "plan": "/home/trananhduy/quadplane-indi/rework/sim/square.plan",
+ "armed": true,
+ "auto": true,
+ "completed": true,
+ "reason": "disarmed after landing",
+ "max_airspeed": 23.88766098022461,
+ "max_alt": 624.0,
+ "max_nav_roll_deg": 44.96999740600586,
+ "max_nav_pitch_deg": 23.68000030517578,
+ "transitioned": true,
+ "landed": true,
+ "waypoints_reached": 6,
+ "disturb_nm": 3.24,
+ "pulses": [
+  {
+   "t": 4.01,
+   "window": "hover_takeoff",
+   "action": "roll",
+   "ok": true
+  },
+  {
+   "t": 5.01,
+   "window": "hover_takeoff",
+   "action": "off",
+   "ok": true
+  },
+  {
+   "t": 9.01,
+   "window": "hover_takeoff",
+   "action": "pitch",
+   "ok": true
+  },
+  {
+   "t": 10.02,
+   "window": "hover_takeoff",
+   "action": "off",
+   "ok": true
+  },
+  {
+   "t": 18.55,
+   "window": "transition",
+   "action": "roll",
+   "ok": true
+  },
+  {
+   "t": 19.53,
+   "window": "transition",
+   "action": "off",
+   "ok": true
+  },
+  {
+   "t": 23.53,
+   "window": "transition",
+   "action": "pitch",
+   "ok": true
+  },
+  {
+   "t": 24.53,
+   "window": "transition",
+   "action": "off",
+   "ok": true
+  },
+  {
+   "t": 50.78,
+   "window": "fixed_wing",
+   "action": "roll",
+   "ok": true
+  },
+  {
+   "t": 51.77,
+   "window": "fixed_wing",
+   "action": "off",
+   "ok": true
+  },
+  {
+   "t": 55.77,
+   "window": "fixed_wing",
+   "action": "pitch",
+   "ok": true
+  },
+  {
+   "t": 56.77,
+   "window": "fixed_wing",
+   "action": "off",
+   "ok": true
+  },
+  {
+   "t": 114.52,
+   "window": "hover_land",
+   "action": "roll",
+   "ok": true
+  },
+  {
+   "t": 115.5,
+   "window": "hover_land",
+   "action": "off",
+   "ok": true
+  },
+  {
+   "t": 119.5,
+   "window": "hover_land",
+   "action": "pitch",
+   "ok": true
+  },
+  {
+   "t": 120.5,
+   "window": "hover_land",
+   "action": "off",
+   "ok": true
+  }
+ ]
+}

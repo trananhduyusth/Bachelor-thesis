@@ -1,0 +1,665 @@
+{
+ "log": "/home/trananhduy/quadplane-indi/rework/runs/noisy_wind/pid_w6_s1/flight.BIN",
+ "params": {
+  "Q_ENABLE": 1.0,
+  "Q_OPTIONS": 0.0,
+  "Q_ASSIST_SPEED": 13.0,
+  "AHRS_EKF_TYPE": 10.0,
+  "SIM_WIND_SPD": 0.0,
+  "AIRSPEED_CRUISE": 17.0,
+  "AIRSPEED_MIN": 14.0,
+  "AIRSPEED_STALL": 12.0,
+  "Q_A_RAT_RLL_P": 0.699999988079071,
+  "Q_A_RAT_RLL_I": 0.699999988079071,
+  "Q_A_RAT_RLL_D": 0.029999999329447746,
+  "Q_A_RAT_RLL_FF": 0.0,
+  "Q_A_RAT_PIT_P": 0.30000001192092896,
+  "Q_A_RAT_PIT_I": 0.30000001192092896,
+  "Q_A_RAT_PIT_D": 0.02500000037252903,
+  "Q_A_RAT_PIT_FF": 0.0,
+  "Q_A_RAT_YAW_P": 4.0,
+  "Q_A_RAT_YAW_I": 0.4000000059604645,
+  "Q_A_RAT_YAW_D": 0.10000000149011612,
+  "Q_A_ANG_RLL_P": 4.5,
+  "Q_A_ANG_PIT_P": 4.5,
+  "Q_A_ANG_YAW_P": 1.520650029182434,
+  "RLL_RATE_P": 0.14106599986553192,
+  "RLL_RATE_I": 0.17587700486183167,
+  "RLL_RATE_D": 0.0015910000074654818,
+  "RLL_RATE_FF": 0.17587700486183167,
+  "PTCH_RATE_P": 0.2803190052509308,
+  "PTCH_RATE_I": 0.8886290192604065,
+  "PTCH_RATE_D": 0.004360999912023544,
+  "PTCH_RATE_FF": 0.8886290192604065,
+  "Q_M_PWM_MIN": 1000.0,
+  "Q_M_PWM_MAX": 2000.0,
+  "Q_M_SPIN_MIN": 0.15000000596046448,
+  "Q_M_THST_HOVER": 0.3029671311378479,
+  "Q_INDI_ENABLE": 0.0,
+  "Q_INDI_AXES": null,
+  "Q_INDI_FILT_HZ": null,
+  "Q_INDI_RLL_K": null,
+  "Q_INDI_PIT_K": null,
+  "Q_INDI_RLL_G": null,
+  "Q_INDI_PIT_G": null,
+  "Q_INDI_ACT_TC": null,
+  "Q_INDI_ACT_DLY": null,
+  "Q_INDI_FW_RLL_G": null,
+  "Q_INDI_FW_PIT_G": null,
+  "Q_INDI_FW_TC": null,
+  "Q_INDI_FW_RLL_K": null,
+  "Q_INDI_FW_PIT_K": null
+ },
+ "events": {
+  "arm": -0.0009999999999976694,
+  "transition_start": 17.008000000000003,
+  "transition_done": 36.410928999999996,
+  "back_transition": 112.507925,
+  "position2": 116.30828600000001,
+  "land_complete": 161.105759,
+  "disarm": 161.105759
+ },
+ "modes": [
+  {
+   "t": 0.0,
+   "mode": "QHOVER"
+  },
+  {
+   "t": 1.2,
+   "mode": "AUTO"
+  }
+ ],
+ "phases": {
+  "hover_takeoff": {
+   "t_start": -0.0,
+   "t_end": 17.01,
+   "duration_s": 17.01,
+   "att_roll_deg": {
+    "n": 6803,
+    "rms": 0.16040950801205497,
+    "max": 0.4723923057317734,
+    "des_rms": 2.513028494206419
+   },
+   "att_pitch_deg": {
+    "n": 6803,
+    "rms": 1.2418438862406476,
+    "max": 4.355093955993652,
+    "des_rms": 2.06968943831007
+   },
+   "att_yaw_deg": {
+    "n": 6803,
+    "rms": 4.90977657973395,
+    "max": 35.1995849609375,
+    "des_rms": 300.8719203025174
+   },
+   "rate_roll_dps": {
+    "n": 6803,
+    "rms": 0.946618511363009,
+    "max": 3.812858015119767,
+    "des_rms": 1.3783705283579386
+   },
+   "rate_pitch_dps": {
+    "n": 6803,
+    "rms": 6.0184638558798165,
+    "max": 23.292311107577483,
+    "des_rms": 6.322580644434309
+   },
+   "rate_yaw_dps": {
+    "n": 6803,
+    "rms": 13.2607362866668,
+    "max": 41.77371187891208,
+    "des_rms": 7.779190592185202
+   },
+   "alt_m": {
+    "n": 401,
+    "rms": 0.08399652252457408,
+    "max": 0.5008206516504288,
+    "des_rms": 18.452614882617542
+   },
+   "climb_ms": {
+    "n": 401,
+    "rms": 0.3122506985630572,
+    "max": 1.73,
+    "des_rms": 2.273591751254295
+   },
+   "motors": {
+    "mean": [
+     0.772,
+     0.82,
+     0.329,
+     0.42
+    ],
+    "max": [
+     0.939,
+     0.95,
+     0.64,
+     0.673
+    ],
+    "pct_any_at_max": 0.0,
+    "pct_any_at_min": 13.38
+   },
+   "spectrum_roll": {
+    "fs_hz": 400.0000000003638,
+    "peak_hz": 0.11759517859778444,
+    "power_above_5hz": 0.26517067749236595,
+    "rms_above_5hz": 0.8177876298350671,
+    "rms_total": 1.5721802258910704
+   },
+   "spectrum_pitch": {
+    "fs_hz": 400.0000000003638,
+    "peak_hz": 0.47038071439113777,
+    "power_above_5hz": 0.01378877442542612,
+    "rms_above_5hz": 0.44560327528458604,
+    "rms_total": 3.525422378504249
+   }
+  },
+  "transition": {
+   "t_start": 17.01,
+   "t_end": 36.41,
+   "duration_s": 19.4,
+   "att_roll_deg": {
+    "n": 7761,
+    "rms": 1.3202065247793369,
+    "max": 3.5455703735351562,
+    "des_rms": 4.104681184135079
+   },
+   "att_pitch_deg": {
+    "n": 7761,
+    "rms": 1.8027076499070038,
+    "max": 7.09565269947052,
+    "des_rms": 0.5666660929465791
+   },
+   "att_yaw_deg": null,
+   "rate_roll_dps": {
+    "n": 7761,
+    "rms": 2.5230397106150915,
+    "max": 13.145373485509225,
+    "des_rms": 1.553619564430175
+   },
+   "rate_pitch_dps": {
+    "n": 7761,
+    "rms": 3.296387391463643,
+    "max": 14.46523630587558,
+    "des_rms": 2.014472925390313
+   },
+   "rate_yaw_dps": {
+    "n": 7761,
+    "rms": 10.286009187137546,
+    "max": 51.8602470965813,
+    "des_rms": 2.86802560802846
+   },
+   "alt_m": {
+    "n": 456,
+    "rms": 0.25175884216298655,
+    "max": 1.258697509765625,
+    "des_rms": 36.141679732374996
+   },
+   "climb_ms": {
+    "n": 456,
+    "rms": 0.20034892807912935,
+    "max": 0.55,
+    "des_rms": 0.4268147529471461
+   },
+   "motors": {
+    "mean": [
+     0.547,
+     0.634,
+     0.296,
+     0.473
+    ],
+    "max": [
+     0.853,
+     0.89,
+     0.753,
+     0.838
+    ],
+    "pct_any_at_max": 0.0,
+    "pct_any_at_min": 31.96
+   },
+   "spectrum_roll": {
+    "fs_hz": 333.55570380354163,
+    "peak_hz": 0.042978443989632985,
+    "power_above_5hz": 0.24914368089223193,
+    "rms_above_5hz": 0.9078072836403219,
+    "rms_total": 2.4933082687444763
+   },
+   "spectrum_pitch": {
+    "fs_hz": 333.55570380354163,
+    "peak_hz": 0.3438275519170639,
+    "power_above_5hz": 0.003966348672836495,
+    "rms_above_5hz": 0.21900823148744625,
+    "rms_total": 2.7225722226704656
+   },
+   "fw_roll_deg": {
+    "n": 485,
+    "rms": 1.3102573918851557,
+    "max": 3.4899999999999998,
+    "des_rms": 4.104974779233647
+   },
+   "fw_pitch_deg": {
+    "n": 485,
+    "rms": 1.7999777776406019,
+    "max": 7.07,
+    "des_rms": 0.566403011233186
+   },
+   "airspeed_ms": {
+    "n": 194,
+    "rms": 6.966086224395172,
+    "max": 13.032559871673584,
+    "des_rms": 17.470282858156896
+   },
+   "airspeed_stats": {
+    "min": 3.947856903076172,
+    "mean": 10.83048956959518,
+    "max": 14.99690055847168
+   },
+   "fw_rate_roll": {
+    "n": 7761,
+    "rms": 2.3930108629207263,
+    "max": 12.512710809707642,
+    "des_rms": 1.5630825478672314
+   },
+   "fw_rate_pitch": {
+    "n": 7761,
+    "rms": 3.3217479324489965,
+    "max": 14.576445579528809,
+    "des_rms": 2.0158694445729517
+   },
+   "tecs_alt_m": {
+    "n": 194,
+    "rms": 1.138700553555718,
+    "max": 2.1100006103515625,
+    "des_rms": 35.00000528945182
+   },
+   "crosstrack_m": {
+    "rms": 0.0,
+    "max": 0.0
+   },
+   "throttle_pct": {
+    "mean": 73.52273982726422,
+    "max": 80.52009582519531,
+    "pct_at_max": 0.0
+   },
+   "assist_pct_time": 99.9,
+   "lift_motors_above_idle_pct": 100.0
+  },
+  "fixed_wing": {
+   "t_start": 36.41,
+   "t_end": 112.51,
+   "duration_s": 76.1,
+   "att_roll_deg": {
+    "n": 30439,
+    "rms": 8.780247140241098,
+    "max": 41.20376777648926,
+    "des_rms": 17.771196147565085
+   },
+   "att_pitch_deg": {
+    "n": 30439,
+    "rms": 3.4249966908024794,
+    "max": 29.043435096740723,
+    "des_rms": 4.929364448595779
+   },
+   "att_yaw_deg": null,
+   "fw_roll_deg": {
+    "n": 1902,
+    "rms": 8.715284397200124,
+    "max": 40.49,
+    "des_rms": 17.767848753197697
+   },
+   "fw_pitch_deg": {
+    "n": 1902,
+    "rms": 3.4149580349767032,
+    "max": 28.71,
+    "des_rms": 4.929536224861191
+   },
+   "airspeed_ms": {
+    "n": 761,
+    "rms": 4.59787533778856,
+    "max": 9.16097354888916,
+    "des_rms": 16.959191448784356
+   },
+   "airspeed_stats": {
+    "min": 8.122900009155273,
+    "mean": 13.539031342126343,
+    "max": 19.662240982055664
+   },
+   "fw_rate_roll": {
+    "n": 30439,
+    "rms": 10.322867364078629,
+    "max": 93.52433013916016,
+    "des_rms": 9.215223251298738
+   },
+   "fw_rate_pitch": {
+    "n": 30439,
+    "rms": 2.960912645636694,
+    "max": 28.19255256652832,
+    "des_rms": 9.064710906781338
+   },
+   "tecs_alt_m": {
+    "n": 761,
+    "rms": 1.8167251885740328,
+    "max": 6.660011291503906,
+    "des_rms": 34.99991267395699
+   },
+   "crosstrack_m": {
+    "rms": 14.070938012850693,
+    "max": 49.6851806640625
+   },
+   "throttle_pct": {
+    "mean": 73.04959454721958,
+    "max": 100.0,
+    "pct_at_max": 4.8
+   },
+   "assist_pct_time": 56.1,
+   "lift_motors_above_idle_pct": 57.1
+  },
+  "back_transition": {
+   "t_start": 112.51,
+   "t_end": 116.31,
+   "duration_s": 3.8,
+   "att_roll_deg": {
+    "n": 1520,
+    "rms": 0.7601842674604716,
+    "max": 2.173619329929352,
+    "des_rms": 0.8675215914542138
+   },
+   "att_pitch_deg": {
+    "n": 1520,
+    "rms": 0.383276749614972,
+    "max": 0.7293667793273926,
+    "des_rms": 5.359249798979153
+   },
+   "att_yaw_deg": null,
+   "rate_roll_dps": {
+    "n": 1520,
+    "rms": 1.1637145473992345,
+    "max": 3.748258833001727,
+    "des_rms": 0.7619451384636468
+   },
+   "rate_pitch_dps": {
+    "n": 1520,
+    "rms": 1.0238629287332426,
+    "max": 2.9057828799262895,
+    "des_rms": 0.5117152297879684
+   },
+   "rate_yaw_dps": {
+    "n": 1520,
+    "rms": 0.7332610545933315,
+    "max": 1.6546756519117654,
+    "des_rms": 0.5485743661082423
+   },
+   "alt_m": {
+    "n": 90,
+    "rms": 0.48428978713774656,
+    "max": 0.7091560363769531,
+    "des_rms": 32.67104679371469
+   },
+   "climb_ms": {
+    "n": 90,
+    "rms": 0.6350371817635737,
+    "max": 0.75,
+    "des_rms": 0.4791068078553396
+   },
+   "motors": {
+    "mean": [
+     0.179,
+     0.187,
+     0.196,
+     0.205
+    ],
+    "max": [
+     0.271,
+     0.278,
+     0.266,
+     0.288
+    ],
+    "pct_any_at_max": 0.0,
+    "pct_any_at_min": 100.0
+   },
+   "spectrum_roll": {
+    "fs_hz": 400.0800160033625,
+    "peak_hz": 0.2633838156704164,
+    "power_above_5hz": 0.3607353834510643,
+    "rms_above_5hz": 0.7267315158247978,
+    "rms_total": 1.5695684494884945
+   },
+   "spectrum_pitch": {
+    "fs_hz": 400.0800160033625,
+    "peak_hz": 0.2633838156704164,
+    "power_above_5hz": 0.06208874305969192,
+    "rms_above_5hz": 0.127672793152417,
+    "rms_total": 0.8300819884373976
+   }
+  },
+  "hover_land": {
+   "t_start": 116.31,
+   "t_end": 161.11,
+   "duration_s": 44.8,
+   "att_roll_deg": {
+    "n": 17919,
+    "rms": 0.2733946780282107,
+    "max": 1.7586902379989624,
+    "des_rms": 0.30910592432964834
+   },
+   "att_pitch_deg": {
+    "n": 17919,
+    "rms": 0.9225363972804442,
+    "max": 3.521961212158203,
+    "des_rms": 8.893303128251711
+   },
+   "att_yaw_deg": {
+    "n": 17919,
+    "rms": 0.2909962871571615,
+    "max": 2.04583740234375,
+    "des_rms": 269.52490122133156
+   },
+   "rate_roll_dps": {
+    "n": 17919,
+    "rms": 1.7961875592183216,
+    "max": 12.780542399448432,
+    "des_rms": 1.4770483291141618
+   },
+   "rate_pitch_dps": {
+    "n": 17919,
+    "rms": 4.5729812154307865,
+    "max": 25.97821362957624,
+    "des_rms": 9.124229456217508
+   },
+   "rate_yaw_dps": {
+    "n": 17919,
+    "rms": 0.9139562522302619,
+    "max": 5.067482123546187,
+    "des_rms": 0.4475856142574387
+   },
+   "alt_m": {
+    "n": 1055,
+    "rms": 0.8195032689346767,
+    "max": 2.5,
+    "des_rms": 19.748566133163074
+   },
+   "climb_ms": {
+    "n": 1055,
+    "rms": 1.0544903308328177,
+    "max": 3.55,
+    "des_rms": 1.3538028936597515
+   },
+   "motors": {
+    "mean": [
+     0.469,
+     0.506,
+     0.475,
+     0.514
+    ],
+    "max": [
+     0.74,
+     0.764,
+     0.695,
+     0.773
+    ],
+    "pct_any_at_max": 0.0,
+    "pct_any_at_min": 20.09
+   },
+   "spectrum_roll": {
+    "fs_hz": 333.44448149511794,
+    "peak_hz": 0.11165058814502526,
+    "power_above_5hz": 0.5474713406554689,
+    "rms_above_5hz": 0.9676012763559415,
+    "rms_total": 1.2697992913107026
+   },
+   "spectrum_pitch": {
+    "fs_hz": 333.44448149511794,
+    "peak_hz": 0.09304215678752106,
+    "power_above_5hz": 0.008814105725663676,
+    "rms_above_5hz": 0.5301717642686569,
+    "rms_total": 6.528456304171339
+   }
+  }
+ },
+ "completed": true,
+ "statustext": [
+  {
+   "t": -0.0,
+   "text": "Throttle armed"
+  },
+  {
+   "t": 0.0,
+   "text": "ArduPlane V4.8.0-dev (7fa89979)"
+  },
+  {
+   "t": 0.0,
+   "text": "158c274630044e33ab0c21188889c480"
+  },
+  {
+   "t": 0.0,
+   "text": "Param space used: 77/3840"
+  },
+  {
+   "t": 0.0,
+   "text": "RC Protocol: UDP"
+  },
+  {
+   "t": 0.0,
+   "text": "New mission"
+  },
+  {
+   "t": 0.0,
+   "text": "New rally"
+  },
+  {
+   "t": 0.0,
+   "text": "New fence"
+  },
+  {
+   "t": 0.0,
+   "text": "QuadPlane Frame: QUAD/X"
+  },
+  {
+   "t": 0.0,
+   "text": "GPS 1: probing for u-blox at 230400 baud"
+  },
+  {
+   "t": 1.2,
+   "text": "Mission: 1 Takeoff"
+  },
+  {
+   "t": 3.2,
+   "text": "Weathervane Active: nose in"
+  },
+  {
+   "t": 17.01,
+   "text": "Mission: 2 WP"
+  },
+  {
+   "t": 17.01,
+   "text": "Transition started airspeed 4.0"
+  },
+  {
+   "t": 33.41,
+   "text": "Transition airspeed reached 14.0"
+  },
+  {
+   "t": 36.41,
+   "text": "Transition done"
+  },
+  {
+   "t": 40.41,
+   "text": "Reached waypoint #2 dist 25m"
+  },
+  {
+   "t": 40.41,
+   "text": "Mission: 3 CondYaw"
+  },
+  {
+   "t": 40.41,
+   "text": "Mission: 4 WP"
+  },
+  {
+   "t": 40.41,
+   "text": "Skipping invalid cmd #115"
+  },
+  {
+   "t": 53.11,
+   "text": "Reached waypoint #4 dist 25m"
+  },
+  {
+   "t": 53.11,
+   "text": "Mission: 5 WP"
+  },
+  {
+   "t": 62.21,
+   "text": "Transition started airspeed 13.0"
+  },
+  {
+   "t": 83.61,
+   "text": "Reached waypoint #5 dist 24m"
+  },
+  {
+   "t": 83.61,
+   "text": "Mission: 6 Land"
+  },
+  {
+   "t": 83.61,
+   "text": "VTOL approach d=253.5"
+  },
+  {
+   "t": 101.91,
+   "text": "Transition airspeed reached 14.0"
+  },
+  {
+   "t": 104.91,
+   "text": "Transition done"
+  },
+  {
+   "t": 112.51,
+   "text": "VTOL airbrake v=10.0 d=44 sd=45 h=32.6"
+  },
+  {
+   "t": 116.13,
+   "text": "VTOL position1 v=8.8 d=11.4 h=33.2 dc=6.7"
+  },
+  {
+   "t": 116.31,
+   "text": "VTOL position2 started v=8.7 d=9.7 h=33.2"
+  },
+  {
+   "t": 122.21,
+   "text": "Weathervane Active: nose in"
+  },
+  {
+   "t": 123.81,
+   "text": "Land descend started"
+  },
+  {
+   "t": 145.51,
+   "text": "Land final started"
+  },
+  {
+   "t": 161.11,
+   "text": "Land complete"
+  },
+  {
+   "t": 161.11,
+   "text": "Throttle disarmed"
+  }
+ ]
+}

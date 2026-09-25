@@ -1,0 +1,142 @@
+{
+ "log": "/home/trananhduy/quadplane-indi/rework/runs/failed_gcs_failsafe_01/flight.BIN",
+ "params": {
+  "Q_ENABLE": 1.0,
+  "Q_OPTIONS": 0.0,
+  "Q_ASSIST_SPEED": 16.66666603088379,
+  "AHRS_EKF_TYPE": 10.0,
+  "SIM_WIND_SPD": 0.0,
+  "AIRSPEED_CRUISE": 20.83333396911621,
+  "AIRSPEED_MIN": 16.0,
+  "AIRSPEED_STALL": 16.66666603088379,
+  "Q_A_RAT_RLL_P": 0.699999988079071,
+  "Q_A_RAT_RLL_I": 0.699999988079071,
+  "Q_A_RAT_RLL_D": 0.029999999329447746,
+  "Q_A_RAT_RLL_FF": 0.0,
+  "Q_A_RAT_PIT_P": 0.30000001192092896,
+  "Q_A_RAT_PIT_I": 0.30000001192092896,
+  "Q_A_RAT_PIT_D": 0.02500000037252903,
+  "Q_A_RAT_PIT_FF": 0.0,
+  "Q_A_RAT_YAW_P": 4.0,
+  "Q_A_RAT_YAW_I": 0.4000000059604645,
+  "Q_A_RAT_YAW_D": 0.10000000149011612,
+  "Q_A_ANG_RLL_P": 4.5,
+  "Q_A_ANG_PIT_P": 4.5,
+  "Q_A_ANG_YAW_P": 1.520650029182434,
+  "RLL_RATE_P": 0.14106599986553192,
+  "RLL_RATE_I": 0.17587700486183167,
+  "RLL_RATE_D": 0.0015910000074654818,
+  "RLL_RATE_FF": 0.17587700486183167,
+  "PTCH_RATE_P": 0.2803190052509308,
+  "PTCH_RATE_I": 0.8886290192604065,
+  "PTCH_RATE_D": 0.004360999912023544,
+  "PTCH_RATE_FF": 0.8886290192604065,
+  "Q_M_PWM_MIN": 1000.0,
+  "Q_M_PWM_MAX": 2000.0,
+  "Q_M_SPIN_MIN": 0.15000000596046448,
+  "Q_M_THST_HOVER": 0.29800230264663696
+ },
+ "events": {
+  "arm": null,
+  "transition_start": null,
+  "transition_done": null,
+  "back_transition": null,
+  "position2": null,
+  "land_complete": 51.315400999999994,
+  "disarm": null
+ },
+ "modes": [
+  {
+   "t": -0.02,
+   "mode": 18
+  },
+  {
+   "t": 1.98,
+   "mode": 10
+  },
+  {
+   "t": 14.54,
+   "mode": 20
+  }
+ ],
+ "phases": {},
+ "completed": false,
+ "statustext": [
+  {
+   "t": -0.02,
+   "text": "Throttle armed"
+  },
+  {
+   "t": -0.02,
+   "text": "ArduPlane V4.8.0-dev (9f648cca)"
+  },
+  {
+   "t": -0.02,
+   "text": "158c274630044e33ab0c21188889c480"
+  },
+  {
+   "t": -0.02,
+   "text": "Param space used: 69/3840"
+  },
+  {
+   "t": -0.02,
+   "text": "RC Protocol: UDP"
+  },
+  {
+   "t": -0.02,
+   "text": "New mission"
+  },
+  {
+   "t": -0.02,
+   "text": "New rally"
+  },
+  {
+   "t": -0.02,
+   "text": "New fence"
+  },
+  {
+   "t": -0.02,
+   "text": "QuadPlane Frame: QUAD/X"
+  },
+  {
+   "t": -0.02,
+   "text": "GPS 1: probing for u-blox at 230400 baud"
+  },
+  {
+   "t": 1.98,
+   "text": "Mission: 1 Takeoff"
+  },
+  {
+   "t": 3.02,
+   "text": "EKF3 IMU1 origin set"
+  },
+  {
+   "t": 3.03,
+   "text": "EKF3 IMU0 origin set"
+  },
+  {
+   "t": 3.98,
+   "text": "Weathervane Active: nose in"
+  },
+  {
+   "t": 14.54,
+   "text": "GCS Failsafe On: switched to QLand"
+  },
+  {
+   "t": 50.23,
+   "text": "EKF3 IMU1 is using GPS"
+  },
+  {
+   "t": 50.24,
+   "text": "EKF3 IMU0 is using GPS"
+  },
+  {
+   "t": 51.32,
+   "text": "Land complete"
+  },
+  {
+   "t": 51.32,
+   "text": "Throttle disarmed"
+  }
+ ]
+}

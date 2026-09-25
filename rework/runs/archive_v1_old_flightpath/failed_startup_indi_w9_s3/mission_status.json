@@ -1,0 +1,15 @@
+{
+ "case": "indi_w9_s3",
+ "plan": "/home/trananhduy/quadplane-indi/rework/sim/square.plan",
+ "armed": false,
+ "auto": false,
+ "completed": false,
+ "reason": "no heartbeat",
+ "max_airspeed": 0.0,
+ "max_alt": 0.0,
+ "max_nav_roll_deg": 0.0,
+ "max_nav_pitch_deg": 0.0,
+ "transitioned": false,
+ "landed": false,
+ "waypoints_reached": 0
+}

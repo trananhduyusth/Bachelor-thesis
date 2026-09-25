@@ -1,0 +1,127 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{ArduPilot Dev Team}(2026{\natexlab{a}})]{ardupilotdocs}
+{ArduPilot Dev Team}.
+\newblock {A}rdu{P}ilot {P}lane and {Q}uad{P}lane documentation.
+\newblock \url{https://ardupilot.org/plane/}, 2026{\natexlab{a}}.
+\newblock Accessed 2026.
+
+\bibitem[{ArduPilot Dev Team}(2026{\natexlab{b}})]{ardupilotgazebo}
+{ArduPilot Dev Team}.
+\newblock {a}rdupilot\_gazebo: {G}azebo plugin for {A}rdu{P}ilot {SITL}.
+\newblock \url{https://github.com/ArduPilot/ardupilot_gazebo}, 2026{\natexlab{b}}.
+\newblock Accessed 2026.
+
+\bibitem[{Open Robotics}(2026)]{gazebodocs}
+{Open Robotics}.
+\newblock {G}azebo simulator documentation.
+\newblock \url{https://gazebosim.org/}, 2026.
+\newblock Accessed 2026.
+
+\bibitem[Beard and McLain(2012)]{beardmclain2012}
+Randal~W. Beard and Timothy~W. McLain.
+\newblock \emph{Small Unmanned Aircraft: Theory and Practice}.
+\newblock Princeton University Press, 2012.
+
+\bibitem[Mahony et~al.(2012)Mahony, Kumar, and Corke]{mahony2012multirotor}
+Robert Mahony, Vijay Kumar, and Peter Corke.
+\newblock Multirotor aerial vehicles: Modeling, estimation, and control of quadrotor.
+\newblock \emph{IEEE Robotics \& Automation Magazine}, 19\penalty0 (3):\penalty0 20--32, 2012.
+\newblock \doi{10.1109/MRA.2012.2206474}.
+
+\bibitem[Lombaerts et~al.(2019)Lombaerts, Kaneshige, Schuet, Hardy, Aponso, and Shish]{lombaerts2019}
+Thomas Lombaerts, John Kaneshige, Stefan Schuet, Gordon Hardy, Bimal Aponso, and Kimberlee Shish.
+\newblock Nonlinear dynamic inversion based attitude control for a hovering quad tiltrotor {eVTOL} vehicle.
+\newblock In \emph{AIAA Scitech 2019 Forum}, San Diego, CA, 2019.
+\newblock \doi{10.2514/6.2019-0134}.
+\newblock AIAA 2019-0134.
+
+\bibitem[Zhou et~al.(2023)Zhou, Yang, Strampe, et~al.]{zhou2023}
+Lei Zhou, Jitao Yang, Torben Strampe, et~al.
+\newblock Incremental nonlinear dynamic inversion based path-following control for a hybrid quad-plane unmanned aerial vehicle.
+\newblock \emph{International Journal of Robust and Nonlinear Control}, 33\penalty0 (17):\penalty0 10304--10327, 2023.
+\newblock \doi{10.1002/rnc.6863}.
+
+\bibitem[Lambregts(1983)]{lambregts1983tecs}
+A.~A. Lambregts.
+\newblock Vertical flight path and speed control autopilot design using total energy principles.
+\newblock In \emph{AIAA Guidance and Control Conference}, 1983.
+\newblock AIAA 1983-2239.
+
+\bibitem[Steinert et~al.(2025{\natexlab{a}})Steinert, Raab, Hafner, Holzapfel, and Hong]{steinertPart1_2025}
+Agnes Steinert, Stefan Raab, Simon Hafner, Florian Holzapfel, and Haichao Hong.
+\newblock From fundamentals to applications of incremental nonlinear dynamic inversion: A survey on {INDI} -- part {I}.
+\newblock \emph{Chinese Journal of Aeronautics}, 38\penalty0 (11):\penalty0 103553, 2025{\natexlab{a}}.
+\newblock \doi{10.1016/j.cja.2025.103553}.
+
+\bibitem[Snell et~al.(1992)Snell, Enns, and Garrard]{snell1992}
+S.~A. Snell, D.~F. Enns, and William~L. Garrard.
+\newblock Nonlinear inversion flight control for a supermaneuverable aircraft.
+\newblock \emph{Journal of Guidance, Control, and Dynamics}, 15\penalty0 (4):\penalty0 976--984, 1992.
+\newblock \doi{10.2514/3.20932}.
+
+\bibitem[Buffington(1999)]{buffington1999}
+James~M. Buffington.
+\newblock Modular control law design for the innovative control effectors ({ICE}) tailless fighter aircraft configuration 101-3.
+\newblock Technical Report AFRL-VA-WP-TR-1999-3057, Air Force Research Laboratory, Wright-Patterson AFB, 1999.
+
+\bibitem[Smith and Berry(2000)]{smithberry2000}
+Patrick Smith and Alan Berry.
+\newblock Flight test experience of a nonlinear dynamic inversion control law on the {VAAC} {H}arrier.
+\newblock In \emph{AIAA Guidance, Navigation, and Control Conference}, 2000.
+\newblock AIAA 2000-3914.
+
+\bibitem[Smith(1998)]{smith1998}
+Patrick Smith.
+\newblock A simplified approach to nonlinear dynamic inversion based flight control.
+\newblock In \emph{AIAA Guidance, Navigation, and Control Conference}, 1998.
+\newblock AIAA 1998-4461.
+
+\bibitem[Bacon and Ostroff(2000)]{bacon2000}
+Barton Bacon and Aaron Ostroff.
+\newblock Reconfigurable flight control using nonlinear dynamic inversion with a special accelerometer implementation.
+\newblock In \emph{AIAA Guidance, Navigation, and Control Conference}, 2000.
+\newblock AIAA 2000-4565.
+
+\bibitem[Sieberling et~al.(2010)Sieberling, Chu, and Mulder]{sieberling2010}
+S.~Sieberling, Q.~P. Chu, and J.~A. Mulder.
+\newblock Robust flight control using incremental nonlinear dynamic inversion and angular acceleration prediction.
+\newblock \emph{Journal of Guidance, Control, and Dynamics}, 33\penalty0 (6):\penalty0 1732--1742, 2010.
+\newblock \doi{10.2514/1.49978}.
+
+\bibitem[Steinert et~al.(2025{\natexlab{b}})Steinert, Raab, Hafner, Holzapfel, and Hong]{steinertPart2_2025}
+Agnes Steinert, Stefan Raab, Simon Hafner, Florian Holzapfel, and Haichao Hong.
+\newblock Advancements in incremental nonlinear dynamic inversion and its components: A survey on {INDI} -- part {II}.
+\newblock \emph{Chinese Journal of Aeronautics}, 38\penalty0 (11):\penalty0 103591, 2025{\natexlab{b}}.
+\newblock \doi{10.1016/j.cja.2025.103591}.
+
+\bibitem[Smeur et~al.(2015)Smeur, Chu, and de~Croon]{smeur2015}
+Ewoud J.~J. Smeur, Qiping Chu, and Guido C. H.~E. de~Croon.
+\newblock Adaptive incremental nonlinear dynamic inversion for attitude control of micro air vehicles.
+\newblock \emph{Journal of Guidance, Control, and Dynamics}, 39\penalty0 (3):\penalty0 450--461, 2015.
+\newblock \doi{10.2514/1.G001490}.
+
+\bibitem[van~'t Veld et~al.(2018)van~'t Veld, Van~Kampen, and Chu]{vantveld2018}
+Robin van~'t Veld, Erik-Jan Van~Kampen, and Qi~Ping Chu.
+\newblock Stability and robustness analysis and improvements for incremental nonlinear dynamic inversion control.
+\newblock In \emph{AIAA Guidance, Navigation, and Control Conference}, 2018.
+\newblock AIAA 2018-1127.
+
+\bibitem[Wang et~al.(2019)Wang, van Kampen, Chu, and Lu]{wang2019stability}
+Xuerui Wang, Erik-Jan van Kampen, Qi~Ping Chu, and Ping Lu.
+\newblock Stability analysis for incremental nonlinear dynamic inversion control.
+\newblock \emph{Journal of Guidance, Control, and Dynamics}, 42\penalty0 (5):\penalty0 1116--1129, 2019.
+\newblock \doi{10.2514/1.G003791}.
+
+\bibitem[{OpenVSP Development Team}(2026)]{openvspdocs}
+{OpenVSP Development Team}.
+\newblock {O}pen{VSP}: Parametric aircraft geometry tool.
+\newblock \url{https://openvsp.org/}, 2026.
+\newblock Accessed 2026.
+
+\end{thebibliography}

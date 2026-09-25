@@ -1,0 +1,5 @@
+*.BIN
+*.bin
+*.tlog*
+eeprom.bin
+__pycache__/

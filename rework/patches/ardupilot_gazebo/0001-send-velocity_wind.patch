@@ -1,0 +1,55 @@
+diff --git a/src/ArduPilotPlugin.cc b/src/ArduPilotPlugin.cc
+index 8309c37..d97339d 100755
+--- a/src/ArduPilotPlugin.cc
++++ b/src/ArduPilotPlugin.cc
+@@ -45,6 +45,7 @@
+ #include <gz/sim/components/Name.hh>
+ #include <gz/sim/components/Pose.hh>
+ #include <gz/sim/components/Sensor.hh>
++#include <gz/sim/components/Wind.hh>
+ #include <gz/sim/components/World.hh>
+ #include <gz/sim/Model.hh>
+ #include <gz/sim/World.hh>
+@@ -1860,6 +1861,28 @@ void gz::sim::systems::ArduPilotPlugin::CreateStateJSON(
+     gz::math::Vector3d velWldG = worldLinearVel->Data();
+     gz::math::Vector3d velWldA = wldAToWldG.Rot() * velWldG + wldAToWldG.Pos();
+ 
++    // Wind velocity in the autopilot's frame.
++    //
++    // ArduPilot's JSON SITL backend has no wind model of its own: SIM_WIND_*
++    // is inert and, unless the simulator reports wind, it computes airspeed
++    // from ground speed. Gazebo's LiftDrag already uses this same wind entity
++    // for the aerodynamics, so reporting it here is what makes the autopilot's
++    // airspeed agree with the air the wings are actually flying in.
++    gz::math::Vector3d windWldA = gz::math::Vector3d::Zero;
++    {
++      const gz::sim::Entity windEntity =
++          _ecm.EntityByComponents(gz::sim::components::Wind());
++      if (windEntity != gz::sim::kNullEntity)
++      {
++        const auto *windLinearVel =
++            _ecm.Component<gz::sim::components::WorldLinearVelocity>(windEntity);
++        if (windLinearVel != nullptr)
++        {
++          windWldA = wldAToWldG.Rot() * windLinearVel->Data();
++        }
++      }
++    }
++
+     // require the duration since sim start in seconds
+     double timestamp = _simTime;
+ 
+@@ -1962,6 +1985,13 @@ void gz::sim::systems::ArduPilotPlugin::CreateStateJSON(
+     writer.Double(velWldA.Z());
+     writer.EndArray();
+ 
++    writer.Key("velocity_wind");
++    writer.StartArray();
++    writer.Double(windWldA.X());
++    writer.Double(windWldA.Y());
++    writer.Double(windWldA.Z());
++    writer.EndArray();
++
+     // Range sensor
+     {
+       // Aquire lock on this->dataPtr->ranges

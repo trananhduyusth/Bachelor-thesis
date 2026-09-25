@@ -1,0 +1,5 @@
+{
+ "_comment": "Gaussian noise on the Gazebo IMU sensor (1 kHz, before ArduPilot's filters), per axis x y z of the sensor. Chosen so the IMU signal ArduPilot logs in hover has the same RMS as the real aircraft in the 20-150 Hz band (analysis/imu_noise.py). First guess: band RMS ~ 0.126 * stddev for a 20 Hz 2nd-order gyro/accel filter.",
+ "gyro_rad_s": [0.075, 0.0246, 0.0234],
+ "accel_m_s2": [1.74, 1.51, 2.52]
+}

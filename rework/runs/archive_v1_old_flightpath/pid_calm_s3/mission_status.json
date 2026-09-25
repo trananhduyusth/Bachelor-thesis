@@ -1,0 +1,17 @@
+{
+ "case": "pid_calm_s3",
+ "plan": "/home/trananhduy/quadplane-indi/rework/sim/square.plan",
+ "armed": true,
+ "auto": true,
+ "completed": true,
+ "reason": "disarmed after landing",
+ "max_airspeed": 21.888093948364258,
+ "max_alt": 621.47998046875,
+ "max_nav_roll_deg": 39.5099983215332,
+ "max_nav_pitch_deg": 31.44999885559082,
+ "transitioned": true,
+ "landed": true,
+ "waypoints_reached": 6,
+ "disturb_nm": 0.0,
+ "pulses": []
+}

@@ -1,0 +1,153 @@
+{
+  "window_note": "Real: manual airborne QHOVER; simulation: trimmed landing hover. No matched maneuvers, motors or filters; this is a noise-floor check.",
+  "comparison_band_hz": [
+    20,
+    120
+  ],
+  "axes": {
+    "gyro x (roll)": {
+      "real aircraft": {
+        "sample_rate_hz": 300.75,
+        "rms_20_120": 0.25350851960145643,
+        "rms_25_90": 0.193845666947836,
+        "angular_accel_rms_rad_s2_25_90": 0.9703217155004621
+      },
+      "simulation": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.40287247432483664,
+        "rms_25_90": 0.261611187456977,
+        "angular_accel_rms_rad_s2_25_90": 1.0593354060007962,
+        "rms_relative_error_pct": 58.91871206466628,
+        "log_psd_rmse_db": 7.301538477806466
+      },
+      "simulation + IMU noise": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.5438199612286598,
+        "rms_25_90": 0.3536568389836715,
+        "angular_accel_rms_rad_s2_25_90": 1.4312926918924738,
+        "rms_relative_error_pct": 114.51743005860524,
+        "log_psd_rmse_db": 7.403962783849296
+      }
+    },
+    "gyro y (pitch)": {
+      "real aircraft": {
+        "sample_rate_hz": 300.75,
+        "rms_20_120": 0.06011534052477122,
+        "rms_25_90": 0.05175192171209035,
+        "angular_accel_rms_rad_s2_25_90": 0.27428823419344894
+      },
+      "simulation": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.16690655135207697,
+        "rms_25_90": 0.12050427093610133,
+        "angular_accel_rms_rad_s2_25_90": 0.48310269475781464,
+        "rms_relative_error_pct": 177.64385911330103,
+        "log_psd_rmse_db": 6.383528326204502
+      },
+      "simulation + IMU noise": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.17846554575959214,
+        "rms_25_90": 0.12799507103073524,
+        "angular_accel_rms_rad_s2_25_90": 0.5132896762076278,
+        "rms_relative_error_pct": 196.871886945485,
+        "log_psd_rmse_db": 6.557117789295711
+      }
+    },
+    "gyro z (yaw)": {
+      "real aircraft": {
+        "sample_rate_hz": 300.75,
+        "rms_20_120": 0.06914939317986722,
+        "rms_25_90": 0.05544997236905053,
+        "angular_accel_rms_rad_s2_25_90": 0.2724727048134902
+      },
+      "simulation": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.11505056419964448,
+        "rms_25_90": 0.08786600374839837,
+        "angular_accel_rms_rad_s2_25_90": 0.3654459682058613,
+        "rms_relative_error_pct": 66.37971630550959,
+        "log_psd_rmse_db": 3.923568720507292
+      },
+      "simulation + IMU noise": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.16515390566297986,
+        "rms_25_90": 0.1226015498929393,
+        "angular_accel_rms_rad_s2_25_90": 0.5122375046705733,
+        "rms_relative_error_pct": 138.83637739725566,
+        "log_psd_rmse_db": 5.645289839523501
+      }
+    },
+    "accel x": {
+      "real aircraft": {
+        "sample_rate_hz": 300.75,
+        "rms_20_120": 0.17457136927491426,
+        "rms_25_90": 0.030189281832834824
+      },
+      "simulation": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.13581604708434425,
+        "rms_25_90": 0.10105625125023827,
+        "rms_relative_error_pct": -22.200273934689886,
+        "log_psd_rmse_db": 13.644310318515553
+      },
+      "simulation + IMU noise": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.21951779063942992,
+        "rms_25_90": 0.16384621149967404,
+        "rms_relative_error_pct": 25.74673129459977,
+        "log_psd_rmse_db": 14.97167388099481
+      }
+    },
+    "accel y": {
+      "real aircraft": {
+        "sample_rate_hz": 300.75,
+        "rms_20_120": 0.16883103256954243,
+        "rms_25_90": 0.029995442511570075
+      },
+      "simulation": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.12072658409161952,
+        "rms_25_90": 0.09100178653571026,
+        "rms_relative_error_pct": -28.492657863777758,
+        "log_psd_rmse_db": 13.417407768024276
+      },
+      "simulation + IMU noise": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.19202692115100406,
+        "rms_25_90": 0.14526124399806148,
+        "rms_relative_error_pct": 13.739114325387503,
+        "log_psd_rmse_db": 14.366853798562401
+      }
+    },
+    "accel z": {
+      "real aircraft": {
+        "sample_rate_hz": 300.75,
+        "rms_20_120": 0.20494220550307948,
+        "rms_25_90": 0.04700189205115236
+      },
+      "simulation": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.19728379203944965,
+        "rms_25_90": 0.1503906528649014,
+        "rms_relative_error_pct": -3.7368649589919367,
+        "log_psd_rmse_db": 13.906431582867597
+      },
+      "simulation + IMU noise": {
+        "sample_rate_hz": 333.44,
+        "rms_20_120": 0.33455034488924323,
+        "rms_25_90": 0.2551745217751477,
+        "rms_relative_error_pct": 63.241311894741095,
+        "log_psd_rmse_db": 15.574990601829585
+      }
+    }
+  },
+  "real_window_s": [
+    90,
+    102
+  ],
+  "inputs": {
+    "real aircraft": "/home/trananhduy/quadplane-indi/logs/realflight.bin",
+    "simulation": "runs/noise_cal_pid_calm/flight.BIN",
+    "simulation + IMU noise": "runs/noise_cal2_pid_calm/flight.BIN"
+  }
+}
